@@ -18,16 +18,16 @@ You task is to analyze the traffic speed collected by the sensors in group "1t" 
 
 Here is the description of the columns in data_CE650C/wavetronix_sample/CSV/20161231.csv
 
-1 Sensor name
-2 date: MM/dd/yy
-3 hour: 0 - 23
-4 5minute: 0 - 11 ( 1 hour is divided into 12 5-min intervals numbered from 0 to 11)
+1 Sensor name<br />
+2 date: MM/dd/yy<br />
+3 hour: 0 - 23<br />
+4 5minute: 0 - 11 ( 1 hour is divided into 12 5-min intervals numbered from 0 to 11)<br />
 
 	So combined hour and 5minute you can get the time. For example “hour = 11 & 5minute = 0” stands for the interval 11:00:00AM - 11:04:59AM, “hour = 17 & 5minute = 11” means the interval 5:55:00PM - 5:59:59PM, etc.
 
-5 Speed: mph
-6 vehicle count: vehicle count in the corresponding 5-min interval
-7 occupancy: sensor time occupancy
+5 Speed: mph<br />
+6 vehicle count: vehicle count in the corresponding 5-min interval<br />
+7 occupancy: sensor time occupancy<br />
 
 ####The pipeline to finish the task should look like this:
 
