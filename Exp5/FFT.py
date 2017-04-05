@@ -3,7 +3,7 @@
 
 # In[1]:
 
-get_ipython().magic(u'matplotlib inline')
+%matplotlib inline  
 import numpy as np
 from numpy import fft
 import matplotlib.pyplot as plt
