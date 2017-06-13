@@ -1,8 +1,8 @@
 # Lecture6
 
-###In this lecture we are going to learn what is Hadoop and how to perform parallel computing using hadoop.
+### In this lecture we are going to learn what is Hadoop and how to perform parallel computing using hadoop.
 
-###After this lecture you should be able to:
+### After this lecture you should be able to:
 
 * understand the structure of HDFS, how files are stored in HDFS and how to exchange files with HDFS;
 * understand how MapReduce works and run your own MapReduce program written in python using Hadoop streaming utility;
@@ -20,7 +20,7 @@ Then after logging in if you check what's in HDFS now by typing "hdfs dfs -ls", 
 }
 
 
-###Here are something you need to prepare before the class:
+### Here are something you need to prepare before the class:
 
 [//]: # (Image References)
 
@@ -44,21 +44,21 @@ Then after logging in if you check what's in HDFS now by typing "hdfs dfs -ls", 
 We will be using INTRANS test cluster in this lecture, but you need to install some software on your laptop to support the connection to the cluster.
 
 
-###**Windows:**
+### **Windows:**
 
 1. Putty 
 ![alt text][Putty]
 2. WinSCP
 ![alt text][WinSCP]
 
-###**Mac:**
+### **Mac:**
 
 1. FileZilla
 ![alt text][FileZilla]
 
 ###Please search online, download and install the required sofeware according to you laptop system. Then let's try to connnect to the cluster and HDFS:
 
-###**Windows:**
+### **Windows:**
 
 * Connet to cluster:
 
@@ -83,7 +83,7 @@ We will be using INTRANS test cluster in this lecture, but you need to install s
     We will explore HDFS in the class together!
 
 
-###**Mac:**
+### **Mac:**
 
 * Connet to cluster:
 
